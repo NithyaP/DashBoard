@@ -1,0 +1,1 @@
+- To install `dash` use `python -m pip install dash` instead of `pip install dash`
