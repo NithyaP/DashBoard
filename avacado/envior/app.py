@@ -17,7 +17,7 @@ app.layout = html.Div(
         html.P(
             children="Analyze the behavior of flower styles"
             " and the number of flower sold in the US"
-            " between 2015 and 2018",
+            
         ),
         dcc.Graph(
             figure={
@@ -26,6 +26,7 @@ app.layout = html.Div(
                         "y": data["sepal_length_cm"],
                         "x": data["data_class"],
                         "type": "lines",
+                        
                     },
                 ],
                 "layout": {"title": "Types of flower"},
